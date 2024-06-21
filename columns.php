@@ -1,96 +1,15 @@
-<?php require "public/header.html.php" ?>
+    <?php require "public/header.html.php" ?>
+    <!-- https://getbootstrap.com/docs/5.3/layout/columns/ -->
     <main>
-        <section class="row">
-            <h1>Section 1</h1>
-        <!-- https://getbootstrap.com/docs/5.3/layout/columns/ -->
+        <section>
+            <h2>section 7</h2>
             <div class="container text-center">
-                <div class="row align-items-start">
-                    <div class="col border">
-                        One of three columns
-                    </div>
-                    <div class="col border">
-                        One of three columns
-                    </div>
-                    <div class="col border">
-                        One of three columns
-                    </div>
+                <div class="row" style="border: black solid 1px;">
+                    <div class="col-6 col-md-3 col-lg-4">*</div>
+                    <div class="col-3 col-md-8 col-lg-4">*</div>
+                    <div class="col-2 col-md-1 col-lg-12">*</div>
                 </div>
             </div>
-        </section>
-        <section class="row">
-            <h1>Section 2</h1>
-            <div class="container text-center">
-                <div class="row align-items-start">
-                    <div class="col border">
-                        One of three columns
-                    </div>
-                    <div class="col border">
-                        One of three columns
-                    </div>
-                    <div class="col border">
-                        One of three columns
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="row">
-            <h1>Section 3</h1>
-            <div class="container text-center">
-                <div class="row justify-content-start">
-                  <div class="col-4 border">
-                    One of two columns
-                  </div>
-                  <div class="col-4 border">
-                    One of two columns
-                  </div>
-                </div>
-                <div class="row justify-content-center">
-                  <div class="col-4 border">
-                    One of two columns
-                  </div>
-                  <div class="col-4 border">
-                    One of two columns
-                  </div>
-                </div>
-                <div class="row justify-content-end">
-                  <div class="col-4 border">
-                    One of two columns
-                  </div>
-                  <div class="col-4 border">
-                    One of two columns
-                  </div>
-                </div>
-                <div class="row justify-content-around">
-                  <div class="col-4 border">
-                    One of two columns
-                  </div>
-                  <div class="col-4 border">
-                    One of two columns
-                  </div>
-                </div>
-                <div class="row justify-content-between">
-                  <div class="col-4 border">
-                    One of two columns
-                  </div>
-                  <div class="col-4 border">
-                    One of two columns
-                  </div>
-                </div>
-                <div class="row justify-content-evenly">
-                  <div class="col-4 border">
-                    One of two columns
-                  </div>
-                  <div class="col-4 border">
-                    One of two columns
-                  </div>
-                </div>
-            </div>
-        </section>
-        <section class="row">
-            <h1>Section 5</h1>
-            <div class="col-3 border">col-3</div>
-            <div class="col-5 border">col-5</div>
-            <div class="col border">col</div>
         </section>
     </main>
     <?php require "public/footer.html.php" ?>

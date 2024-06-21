@@ -14,7 +14,18 @@
 </head>
 
 <body>
-    <div class="container text-center">
+    <div class="container">
         <header>
             <?php require "nav.html.php" ?>
+            <div class="p-5 bg-body-tertiary">
+    <h1 class="text-body-emphasis">Lorem ipsum dolor sit.</h1>
+    <p class="col-lg-8 fs-5 text-muted">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. At odit blanditiis cumque excepturi accusantium, cum beatae aspernatur maxime dolore dolorem provident perspiciatis labore, rem eaque eligendi magnam, corporis maiores totam.
+    </p>
+    <div class="d-inline-flex gap-2 mb-5">
+        <button class="d-inline-flex align-items-center btn btn_orange btn-lg px-4" type="button">
+            Voir plus
+        </button>
+    </div>
+</div>
         </header>
